@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+a{
+    text-decoration:dashed;
+    /* text-decoration-line:line-through; */
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+    color: transparent;
+    text-shadow: 5px 5px 2px red;
+}
+p{
+    /* text-indent: 50px;
+    letter-spacing: 16px;
+    line-height: 40px; */
+    text-shadow: 3px 3px 4px aqua , 10px 10px 3px blueviolet;
+    font-size:larger;
+
+}

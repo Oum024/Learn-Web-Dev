@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is website of my html tag practice">
+    <meta name="keywords" content="HTML Practice">
+    <link rel="shortcut icon" href="image/om.jpeg" type="image/x-icon">
+      <!--for list at line 143-->
+       <style>
+         .exp li
+         {
+           display: inline;
+           padding-right: 20px;
+         }
+       </style>
+     <link rel="stylesheet" href="style.css">
+     <script src="script.js"></script>
+    <title>Prac Web Dev</title>
+</head>
+<body>
+    <a href="#Link">Links</a>           <!--teleport us to link section-->
+    <h1 style="background-color: aqua;">Hello</h1>
+    <h2 style="color: aquamarine;">Hello</h2>
+    <h3>Hello</h3>
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+    <br>
+    <hr>
+    <h1>Block Chain</h1>
+    <hr>
+    <p>From Wikipedia, the free encyclopedia</p>
+    <br>
+    <br>
+    <p><I>For other uses, see Block chain (disambiguation)</I></p>
+    <br>
+    <img style="float: right;"
+     width="300"  
+     src="image/Emminenve mobile.jpg" 
+     alt="Anime inage" loading="lazy">
+    <p>A <b>blockchain</b> is a distributed ledger with growing <del>list</del> lists of records (blocks) that are securely linked together via cryptographic hashes.<sup>[1][2][3][4]</sup> Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a Merkle tree, where data nodes are represented by leaves). The timestamp proves that the transaction data existed when the block was created. Since each block contains information about the previous block, they effectively form a chain (compare linked list data structure), with each additional block linking to the ones before it. Consequently, blockchain transactions are irreversible in that, once they are recorded, the data in any given block cannot be altered retroactively without altering all subsequent blocks.
+
+     
+        <br><br>Blockchains are typically managed by a <mark>peer-to-peer (P2P) </mark>computer network for use as a public distributed ledger, where nodes collectively adhere to a consensus algorithm protocol to add and validate new transaction blocks. Although blockchain records are not unalterable, since blockchain forks are possible, blockchains may be considered secure by design and exemplify a distributed computing system with high Byzantine fault tolerance.<sub>[5]</sub>  </p>
+    <br>
+    <hr>
+    <h4>Responsive Img</h4>
+    <br>
+    <h6>DPR</h6>
+    <img  width="30%"
+    srcset="image/Emminenve mobile.jpg 1x, image/colorful.jpg 2x, image/colorfuk.jpg 3x" 
+    src="image/colorful.jpg" alt="colorful photo" loading="lazy">
+    <br>
+    <h6>Art Detction Problem</h6>
+    <img 
+    srcset="image/OIP.jpeg 1000w, image/OIP.jpeg 800w, image/OIPMob.jpeg 500w"
+    sizes="(max-width : 500px) 500px, (max-width : 8000px) 800px, 1000px"
+    src="image/OIP.jpeg" alt="One piece" loading="lazy">
+    <br>
+    <hr>
+    <h2>lists</h2>
+    <br>
+    <h4>Unorder list</h4>
+     <ul>
+        <li>2</li>
+        <li>5</li>
+        <li>1</li>
+     </ul>
+     <br>
+     <h4>Order List</h4>
+      <ol type="A" reversed="true">
+        <li>1
+           <ul>
+            <li>1.1</li>
+            <li>1.2</li>
+            <li>1.3</li>
+           </ul>
+        </li>
+        <li>2</li>
+        <li>3</li>
+      </ol>
+<br>
+<hr>
+<br>
+      <h3>Tables</h3>
+
+        <table border="">
+            <caption>My Marksheet</caption>
+            <colgroup>
+             <col span="2" style="background-color: blueviolet;">   <!--index =2 column-->
+             <col style="background-color: aqua;">
+            </colgroup>
+            <thead style="background-color: tomato;">
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+                <th>Passed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>math</td>
+                <td>70</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>90</td>
+                <td>yes</td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color: chartreuse;">
+            <tr>
+            <th colspan="2">Passed</th>
+            <th>yes</th>
+        </tr>
+        </tfoot>
+        </table> 
+        <br>
+        <hr>
+        <h3 id="Link">Links</h3>
+        <a href="https://google.com">google</a><!--opening link in same tab--><br><br>
+        <br>
+        <a href="https://onepiece.fandom.com/wiki/One_Piece_Wiki" target="_blank"><img src="image/OIP.jpeg" alt="One Piece Detail" ></a>
+         <!--opening link i another tab-->
+    <br>
+    <hr>
+    <a href="forms.html">Forms</a>
+    <hr>
+    <h3>Contact</h3>
+    <a href="mailto:omp40106@gmail.com">My gmail</a>
+    <a href="tel:+91 9157844679">Mobile no</a>
+    <br>
+    <hr>
+
+    <div style="background-color: aqua;">Block element 1</div>
+    <div style="background-color: aquamarine;">Block element 2</div>
+
+    <span style="background-color: blue;">Inline element 1</span>
+    <span style="background-color: blueviolet;">Inline element</span>
+
+    <p style="background-color: cornflowerblue; display: inline;">a block element behave like inline element</p>
+    <p style="background-color: cornsilk;">a block element</p>
+
+    <br>
+    <hr>
+
+    <nav class="exp">
+        <ul>
+            <li>hdfhfd</li>
+            <li>wtthed</li>
+            <li>tdngf</li>
+            <li>ndthtgd</li>
+        </ul>
+    </nav>
+    <!--Tabel-->
+
+    <table border="1">
+        <thead>
+              <tr> 
+                 <th rowspan="3">Day</th> 
+                 <th colspan="4">Seminer</th> 
+              </tr>
+              <tr>
+                <th colspan="2">Schedule</th>
+                <th colspan="2" rowspan="2">Topic</th>
+              </tr>
+              <tr>
+                <th>Begning</th>
+                <th>End</th>
+              </tr>
+              
+        </thead>
+
+        <tbody>
+
+            <tr>
+               <td rowspan="2">Monday</td>
+               <td rowspan="2">8:00 am</td>
+               <td rowspan="2">5:00 pm</td>
+               <td colspan="2">Introduction to XML</td>
+            </tr>
+              
+              <tr>
+                <td colspan="2">Vailiady:DTD and Relax NG</td>
+              </tr>
+
+                 <tr>
+                    <td rowspan="3">Tuesday</td>
+                    <td>8:00 am</td>
+                    <td>11:00 pm</td>
+                    <td colspan="2" rowspan="2">XPATH</td>
+                </tr>
+                <tr>
+                    <td>11:00 am</td>
+                    <td>2:00 pm</td>
+                </tr>
+             
+               <tr>
+                 <td>2:00 pm</td>
+                 <td>5:00 pm</td>
+                 <td colspan="2">XSL Transformation</td>
+               </tr>
+ 
+                 <tr>
+                    <td>Wednesday</td>
+                    <td>8:00 am</td>
+                    <td>12:00 pm</td>
+                    <td colspan="2">XSL Formatting Objects</td>
+                 </tr>
+
+         </tbody>
+    </table>
+<br>
+<hr>
+<br>
+
+<h3>Videos & IFrame</h3>
+
+     <video width="50%" src="image/Luffy And Kaido Split The Heavens.mp4" 
+     controls loop muted ></video>
+      <br><br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qGy6Ltzn_SE?mute=1&autoplay=1" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen ></iframe>  
+       
+   <section>
+    <br>
+    <hr>
+    <br>
+    <h2>Audio</h2>
+    <audio src="image/01.アイドル.mp3" controls>Oshi no ko</audio>
+    <br>
+    <br>
+    <hr>
+    <h2>iframe</h2>
+    <iframe src="forms.html" frameborder="0" width="500px" height="300px"></iframe>
+    <br>
+  <hr>
+
+    <h1>FAQ's</h1>
+
+    <details>
+      <summary>
+        name ???
+      </summary>
+      <p>Oum </p>
+    </details>
+
+      <details>
+        <summary>
+          JKLM?
+        </summary>
+        <p>NOPQ</p>
+      </details>
+   </section>
+   
+     <footer>
+     <p>&#169;2023 Right Reserve by Oum Patel</p>
+    </footer>
+        
+        
+    </body>
+</html>

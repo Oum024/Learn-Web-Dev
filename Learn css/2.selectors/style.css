@@ -1,0 +1,31 @@
+*{
+    font-family: fantasy;/*universal selector*/
+}
+
+p:hover{
+    font-family: monospace;
+    font-size: larger;
+}
+
+body{
+    font-size: larger;
+    background-color: black;
+}
+
+/*#first>p{
+    color: cadetblue;  
+}nestedselector*/
+
+#first ,#second { /*grouping selector*/
+    color: aqua;
+}
+
+.neon{
+    color:chartreuse !important;
+}
+
+.highlight{
+    background-color:darkblue;
+    font-weight: bolder;
+    font-style: italic;
+}

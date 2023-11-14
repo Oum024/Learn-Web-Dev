@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    background-color: teal;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    animation: orbit 4s linear infinite;
+    animation-direction: normal;
+    border-radius: 50%;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    /* transition: 0.5s ease; */
+    /* animation-name: circles; */
+    /* animation-name: slide-in; */
+    animation-duration: 4s;
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    border-radius: 50%;
+}
+
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dots{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    animation: up-down 0.8s ease infinite alternate;
+}
+
+.dots:nth-child(2){
+    animation-delay: 0.1s;
+}
+
+.dots:nth-child(3){
+    animation-delay: 0.2s;
+}
+
+.dots:nth-child(4){
+    animation-delay: 0.3s;
+}
+
+@keyframes up-down {
+    from{
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+
+/* .box:hover{
+    transform: translate(200px);
+} */
+
+@keyframes orbit {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translate(-500px);
+    }
+
+    100% {
+        transform: translate(200px);
+    }
+}
+
+@keyframes circles {
+    0% , 100% {
+        transform: translate(0 , 0);
+    }
+
+    25% {
+        transform: translate(200px , 0);
+    }
+
+    50% {
+        transform: translate(200px , 200px);
+    }
+
+    75% {
+        transform: translate(0 , 200px);
+    }
+}

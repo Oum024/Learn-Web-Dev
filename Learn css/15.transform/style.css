@@ -1,0 +1,28 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: steelblue;
+    margin: 80px auto;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+    /* transform: scale(2 , 1.5); */
+    /* transform: skew(40deg , 0deg); */
+    /* transform: translate(20px , 30px); */
+    /* transform: rotate(30deg); */
+    /* transform-origin: top left; */
+    /* transform-origin: 50% 50%; */
+    transform-origin: 100px 200px;
+}
+
+.box:hover{
+    transform:rotate(45deg);
+}

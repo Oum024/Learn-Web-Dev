@@ -1,0 +1,10 @@
+main{
+    background-color: aliceblue;
+    border: 3px dotted rgb(43, 226, 195);
+    width: 50%;
+}
+
+section{
+    border: 5px solid green;
+    width: 60%;
+}

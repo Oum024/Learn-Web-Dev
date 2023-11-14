@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+
+@media (width <= 400px) {     /*  max-width : 400px   in old css version  */
+    body{
+        background-color: blue;
+    }
+} 
+
+/* @media (orientation : portrait ) {
+    body{
+        background-color:aquamarine;
+    }
+} */
+
+@media (width <= 200px) {
+    body{
+        background-color:blueviolet;
+    }
+}
+
+@media (400px <= width <= 700px) {         /*  min-width : 800px  */
+    body{
+        background-color:burlywood;
+    }
+}
+/* 
+@media (width >= 500px)  and (widthh >= 700px) {
+    body{
+        background-color:burlywood;
+    }
+} */

@@ -1,0 +1,109 @@
+/* body{
+    color:aliceblue;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    margin: 100px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    position: relative;
+    background-color: red;
+    top: 100px;
+    left: 100px;
+}
+
+.green{
+    position: absolute;
+    background-color: green;
+    bottom: 20px;
+    right: 20px;
+}
+
+.blue{
+    position: fixed;
+    background-color: blue;
+    top: 0px;
+    left: 2px;
+}
+
+.purple{
+    background-color: blueviolet;
+    position: sticky;
+    top: 10px;
+}
+
+.spacer{
+    height: 300vh;
+    background-color: aquamarine;
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: gold;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.2rem;
+}
+
+main{
+    width: 50%;
+    height: 250vh;
+    border: 1px solid black;
+    position: relative;
+    left: 20%;
+    right: 30%;
+    padding: 110px 50px;
+}
+
+.aside-container{
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    top: 0; 
+}
+
+aside{
+    width: 300px;
+    background-color: plum;
+    height: 80vh;
+    top: 80px;
+    position: sticky;
+    float: right;
+}
+
+.contact{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 40px;
+    background-color: burlywood;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+}
